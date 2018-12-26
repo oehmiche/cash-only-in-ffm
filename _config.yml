@@ -1,1 +1,12 @@
 theme: jekyll-theme-hacker
+title: Cash-Only Locations in Frankfurt
+show_downloads: "false"
+
+collections_dir: data
+collections:
+  restaurants:
+    output: false
+  bars:
+    output: false
+  cafes:
+    output: false
