@@ -1,6 +1,6 @@
 # Cash only locations in Frankfurt
 Liste von Restaurants, Bars und Cafés in Frankfurt, bei denen man nur cash zahlen kann.
-Diese ist erreichbar unter https://github.com/oehmiche/cash-only-in-ffm.
+Diese ist erreichbar unter https://oehmiche.github.io/cash-only-in-ffm/.
 
 Die Übersicht wird mit Hilfe von Jekyll Collections erzeugt. Pro location liegt ein Markdown File unterhalb vom `data` Folder. Die Daten liegen im Front matter in folgenden Properties:
 - name
@@ -15,4 +15,4 @@ Dazu folgende Schritte durchführen:
 - Pull Request erzeugen
 
 ## Layout
-Es kommt das [https://pages-themes.github.io/hacker/](GitHub Theme `Hacker`) zum Einsatz.
+Es kommt das [GitHub Theme `Hacker`](https://pages-themes.github.io/hacker/) zum Einsatz.
