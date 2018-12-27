@@ -12,10 +12,10 @@ Damit niemand beim Abwasch helfen muss, weil er oder sie nicht genug Bargeld in 
 
 ## Cafés
 {% for location in site.cafes | sort: 'name' %}
-- <a href="{{ location.homepage }}">{{ location.name }}</a>
+- [{{ location.name }}]({{ location.homepage }})
 {% endfor %}
 
 ## Bars
 {% for location in site.bars | sort: 'name'  %}
-- <a href="{{ location.homepage }}">{{ location.name }}</a>
+- [{{ location.name }}]({{ location.homepage }})
 {% endfor %}
