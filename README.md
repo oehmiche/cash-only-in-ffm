@@ -6,6 +6,13 @@ Die Übersicht wird mit Hilfe von Jekyll Collections erzeugt. Pro location liegt
 - name
 - homepage
 
+Ein neue Location kann mit Hilfe des Script `create-location.sh`, welches im Folder `bin` liegt, angelegt werden.
+Dieses führt auch gleich eine git-commit durch.
+
+Usage (im jeweiligen data-Folder):
+```create-location.sh <Locationname> <Homepage> <Filename>```
+
+
 ## Contribute
 Jeder kann mittels PullRequests contributen.
 Dazu folgende Schritte durchführen:
